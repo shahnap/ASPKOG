@@ -42,7 +42,7 @@ function TargetDashboard() {
     <div className="h-screen flex flex-col p-1">
       <div className="max-w-md flex items-center justify-between mb-4">
   <div className="flex-1 text-center text-2xl">
-    <b>Target Dashboard</b>
+    <b>Target Dashboard shahna</b>
   </div>
   <div className="ml-4">
     <button onClick={handleCancel} className="flex items-center">
