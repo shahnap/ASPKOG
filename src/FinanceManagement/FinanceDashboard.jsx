@@ -6,7 +6,7 @@ import Locker from '../Images/Locker.png';
 import Bussiness from '../Images/Bussiness.png';
 import { IoDiamondSharp } from "react-icons/io5";
 import graph from '../Images/graph.png';
-// import Addexpense from '../Images/Addexpense.png';
+import Addexpense from '../Images/Addexpense.png';
 import Expensereport from '../Images/expensereport.png';
 import Fitness from '../Images/Fitness.png';
 import Targets from '../Images/Targets.jpeg';
@@ -16,7 +16,7 @@ import { MdCancel } from 'react-icons/md';
 function FinanceDashboard() {
   const navigate = useNavigate();
   const items = [
-    { src: ExpanceMaster, label: 'Expance master', url: '/ExpanceMaster' },
+    { src: Addexpense, label: 'Expance master', url: '/ExpanceMaster' },
     { src: ExpanceMaster, label: 'Add Expance', url: '/AddExpance' },
     { src: Expensereport, label: 'Expance Report', url: '/Expensereport' },
     { src: Bussiness, label: 'Business Management', url: '/business' },
