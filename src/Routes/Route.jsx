@@ -8,6 +8,7 @@ import AddExpance from '../FinanceManagement/AddExpance';
 import ExpenseReport from '../FinanceManagement/ExpenseReport';
 import TargetDashboard from '../Targets/TargetDashboard';
 import ToDo from '../Targets/Todo';
+import FitnessDashboard from '../Fitness Management/FitnessDashboard';
 
 
 function Routers() {
@@ -18,6 +19,8 @@ function Routers() {
         <Route path="/dashboard" element={<MainDashBoard />} />
         <Route path="/ExpanceMaster" element={<ExpanceMaster />} />
         <Route path="/TargetDashboard" element={<TargetDashboard />} />
+        <Route path="/FitnessDashboard" element={<FitnessDashboard />} />
+
         <Route path="/AddExpance" element={<AddExpance />} />
         <Route path="/Todo" element={<ToDo />} />
         <Route path="/Expensereport" element={<ExpenseReport />} />

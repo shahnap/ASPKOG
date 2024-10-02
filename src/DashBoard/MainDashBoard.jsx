@@ -15,7 +15,7 @@ function MainDashBoard() {
   const items = [
     { src: FM, label: 'Finance Management', url: '/FinanceDashboard' },
     { src: Targets, label: 'Targets', url: '/TargetDashboard' },
-    { src: Fitness, label: 'Fitness', url: '/fitness' },
+    { src: Fitness, label: 'Fitness', url: '/FitnessDashboard' },
     { src: Bussiness, label: 'Business Management', url: '/business' },
     { src: Gallary, label: 'Gallery', url: '/gallery' },
     { src: Locker, label: 'Locker', url: '/locker' },
